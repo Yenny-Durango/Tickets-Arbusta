@@ -22,9 +22,9 @@
                 <div class="fila_hijo">
                     <label>IMAGEN</label><br><br>
                     <label for="" class="label_input"><i class="fa-solid fa-image" style="color: #ffffff;"></i><input type="file" name="imagenes" placeholder="Imagen" id="imagenInput" onchange="mostrarImagen(event)" accept="image/*" class="btn_imagenes"></label>
+                    
                     <input type="hidden" id="inputImagenes" name="inputImagenes">
                     <div id="imagenesPrevias"></div>
-
                 </div>
             </div>
 
